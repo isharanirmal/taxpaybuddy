@@ -1,0 +1,75 @@
+[
+  {
+    "id": "GT001",
+    "question": "What is a Taxpayer Identification Number TIN ?",
+    "expected_agent": "agent1_tin_registration",
+    "keywords": ["TIN", "Taxpayer Identification Number", "IRD"],
+    "reference_answer": "A Taxpayer Identification Number (TIN) is a unique identification number issued by the Inland Revenue Department (IRD) to identify taxpayers for tax administration purposes. It is used for tax registration, e-Services, filing tax returns, tax payments, refunds, and updating taxpayer information."
+  },
+  {
+    "id": "GT003",
+    "question": "What documents are required to register for a TIN as an individual?",
+    "expected_agent": "agent1_tin_registration",
+    "keywords": ["TIN", "documents", "registration"],
+    "reference_answer": "Individuals typically need a valid National Identity Card or passport, and where applicable, proof of address or supporting employment/business documentation to register for a TIN."
+  },
+  
+  {
+    "id": "GT007",
+    "question": "What is APIT?",
+    "expected_agent": "agent2_individual_income_tax",
+    "keywords": ["APIT", "Advance Personal Income Tax"],
+    "reference_answer": "Advance Personal Income Tax (APIT) is the mandatory monthly tax withholding system applied to employment income. Employers deduct APIT from salaries and remit it to the IRD."
+  },
+  {
+    "id": "GT008",
+    "question": "When is a resident individual exempt from filing an annual income tax return?",
+    "expected_agent": "agent2_individual_income_tax",
+    "keywords": ["return", "APIT", "interest"],
+    "reference_answer": "A resident individual is exempt if the income consists only of employment income subject to APIT and annual interest income does not exceed LKR 5,000."
+  },
+  
+  {
+    "id": "GT029",
+    "question": "What is the standard corporate income tax rate?",
+    "expected_agent": "agent3_corporate_income_tax",
+    "keywords": ["30%"],
+    "reference_answer": "The standard corporate income tax rate is 30%."
+  },
+  {
+    "id": "GT030",
+    "question": "Can companies obtain concessionary tax rates?",
+    "expected_agent": "agent3_corporate_income_tax",
+    "keywords": ["concessionary"],
+    "reference_answer": "Yes. Certain companies qualify for concessionary tax rates under the Inland Revenue Act depending on their activities."
+  },
+  {
+    "id": "GT035",
+    "question": "Is withholding tax on dividends final?",
+    "expected_agent": "agent4_withholding_tax",
+    "keywords": ["final withholding"],
+    "reference_answer": "Yes. Dividend withholding tax is treated as a final withholding tax."
+  },
+  {
+    "id": "GT041",
+    "question": "What is the withholding tax rate on interest paid to residents?",
+    "expected_agent": "agent4_withholding_tax",
+    "keywords": ["10%", "interest"],
+    "reference_answer": "Interest paid to resident individuals is generally subject to a 10% withholding tax rate."
+  },
+  {
+    "id": "GT050",
+    "question": "What's the weather like in Colombo today?",
+    "expected_agent": "general_fallback",
+    "keywords": ["specialized", "tax-related"],
+    "reference_answer": "I am sorry, I am a specialized Sri Lankan Tax Assistant and I can only assist you with tax-related queries."
+  },
+  {
+    "id": "GT051",
+    "question": "Who won the last T20 Cricket World Cup?",
+    "expected_agent": "general_fallback",
+    "keywords": ["specialized", "tax-related"],
+    "reference_answer": "I am sorry, I am a specialized Sri Lankan Tax Assistant and I can only assist you with tax-related queries."
+  }
+  
+]

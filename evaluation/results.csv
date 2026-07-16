@@ -1,0 +1,128 @@
+question,expected_agent,predicted_agent,precision_at_1,precision_at_3,recall_at_1,recall_at_3,tp,fp,fn,f1_score,cosine_accuracy,keyword_score,matched_keywords,faithfulness,latency_seconds,generated_answer,error
+What is a Taxpayer Identification Number TIN ?,agent1_tin_registration,agent1_tin_registration,1.0,1.0,1.0,1.0,3,0,0,1.0,0.866792619228363,1.0,"['TIN', 'Taxpayer Identification Number', 'IRD']",1.0,7.673706000205129,"Answer:
+A Taxpayer Identification Number (TIN) is a unique identification number issued by the Inland Revenue Department (IRD) of Sri Lanka. It serves as the official and primary reference number for identifying a taxpayer and for all interactions with the IRD for tax administration purposes.
+
+Every registered taxpayer, whether an individual or an organization, is assigned a unique TIN based on their legal status and tax obligations.
+
+**Purpose of a TIN:**
+The primary purpose of a TIN is to uniquely identify every taxpayer registered with the Inland Revenue Department. It serves as the official reference number for all tax-related transactions and communications.
+
+The objectives of introducing the TIN include:
+*   Identifying taxpayers accurately.
+*   Maintaining a centralized taxpayer database.
+*   Improving tax administration and compliance.
+*   Facilitating electronic tax services.
+*   Simplifying communication between taxpayers and the IRD.
+*   Supporting tax return filing and payment processing.
+*   Reducing duplicate taxpayer records.
+*   Enabling integration with other government services where tax identification is required.
+
+**What a TIN enables:**
+The TIN enables the Inland Revenue Department to:
+*   Maintain taxpayer records.
+*   Administer taxes efficiently.
+*   Process tax returns.
+*   Monitor tax compliance.
+*   Provide access to IRD electronic services (e-Services).
+
+A TIN is required to access various IRD services, including:
+*   Tax registration
+*   e-Services login
+*   Filing tax returns
+*   Making tax payments
+*   Requesting refunds
+*   Updating taxpayer information
+*   Applying for a Personal Identification Number (PIN)
+*   Receiving tax-related notices and certificates",
+What documents are required to register for a TIN as an individual?,agent1_tin_registration,agent1_tin_registration,1.0,1.0,1.0,1.0,3,0,0,1.0,0.8601238131523132,1.0,"['TIN', 'documents', 'registration']",1.0,4.972135000163689,"To register for a Taxpayer Identification Number (TIN) as an individual, you must submit a completed registration application along with several supporting documents. The exact documents are required to verify your identity and, if applicable, your business information.
+
+Here are the general requirements for individuals:
+
+*   **Completed TIN Registration Application Form:** This is the primary form that needs to be filled out.
+*   **Valid Identification Documents:** Your identity is generally established using a valid passport.
+*   **Supporting Documents Relevant to Your Category:** Depending on your specific situation (e.g., salaried employee, self-employed, student, homemaker), additional documents may be required. For individuals involved in a business or employment, supporting business or employment documentation may be needed.
+*   **Proof of Address:** This is required where applicable and can be established using a document showing your local address.
+
+**Important Notes for Document Submission:**
+
+*   **Accuracy and Validity:** Ensure all documents are complete, accurate, and valid before submission.
+*   **Online Applications:** For online applications, you must upload clear scanned copies of all supporting documents.
+*   **In-person Registration:** If you are registering in person, you should provide photocopies of original documents, as original documents may be required for verification.
+
+Before submitting your TIN application, it is recommended to prepare all required supporting documents and ensure your identification documents are valid and up-to-date.",
+What is APIT?,agent2_individual_income_tax,agent2_individual_income_tax,1.0,1.0,0.5,0.5,3,0,0,0.6666666666666666,0.7787747979164124,1.0,"['APIT', 'Advance Personal Income Tax']",1.0,6.759131300030276,"Answer:
+Advance Personal Income Tax (APIT) is the mandatory tax withholding system specifically applied to employment income in Sri Lanka. It functions as a progressive withholding tax mechanism.
+
+Here's a detailed explanation of APIT:
+
+*   **Purpose and Function**: APIT is designed to collect tax at the source from employees' salaries and wages. It acts as a mandatory payroll tax withholding system. Employers are legally obligated to calculate and deduct the appropriate tax from their employees' regular monthly earnings.
+*   **Replacement of PAYE**: APIT replaced the former Pay-As-You-Earn (PAYE) scheme in 2020 and became compulsory for all eligible employees in January 2023.
+*   **Applicability**:
+    *   It applies to all qualifying employees whose earnings exceed a monthly threshold of LKR 150,000.
+    *   It is applicable to resident employees and non-resident citizen employees.
+*   **Employer Obligations**:
+    *   Employers must calculate and deduct APIT from employee salaries on a monthly basis.
+    *   They must then remit these deducted funds to the Inland Revenue Department (IRD) by the 15th day of the following month.
+    *   This deduction is mandatory, regardless of employee consent.
+    *   If an employer fails to withhold or remit this tax, they are held personally liable for the outstanding balance under Section 124(1) of the Inland Revenue Act.
+*   **APIT Tables**: The IRD utilizes eight distinct APIT tax tables to manage different employment dynamics and income types for the Year of Assessment 2025/2026 onwards.
+    *   **Table 01 (Primary Employment Regular Income)**: This table is used for resident employees and non-resident citizen employees who have submitted a Primary Employment Declaration for their regular monthly income. Employers apply this table to calculate monthly withholdings from regular profits.
+    *   **Table 02**: This table is specifically used for irregular or lump-sum payments, such as bonuses, incentives, share schemes, or gratuities.
+*   **Deductibility for APIT Calculation**: For the purpose of calculating APIT, the employee's mandatory 8% contribution to the Employees' Provident Fund (EPF) is fully deductible from their gross employment income. This deduction helps in arriving at the monthly taxable income.",
+When is a resident individual exempt from filing an annual income tax return?,agent2_individual_income_tax,agent2_individual_income_tax,1.0,0.6666666666666666,1.0,1.0,2,1,1,0.8,0.8432598114013672,1.0,"['return', 'APIT', 'interest']",1.0,3.8408377999439836,"Answer:
+Effective from April 1, 2025, resident individuals may be exempt from the requirement to file an annual Return of Income if their income consists exclusively of specific types of income. This measure is intended to reduce the compliance burden for wage earners.
+
+Details & Conditions:
+A resident individual is exempt from lodging an annual Return of Income if their income solely comprises:
+
+*   **Employment Income:** This applies if their employment income has been subjected to Advance Personal Income Tax (APIT) withholding by their employer.
+*   **Interest Income:** This applies if the total interest earned does not exceed a certain LKR amount for the entire Year of Assessment. Please note that the specific LKR amount for the interest income threshold was not provided in the retrieved documents.",
+What is the standard corporate income tax rate?,agent3_corporate_income_tax,agent3_corporate_income_tax,1.0,1.0,1.0,1.0,3,0,0,1.0,0.5277447700500488,1.0,['30%'],1.0,22.13593370001763,"The standard Corporate Income Tax (CIT) rate in Sri Lanka is 30%.
+
+This rate is applicable to:
+*   All standard companies.
+*   Taxable (non-exempt) cooperative societies.
+*   Corporate entities and other taxable vehicles.
+*   The taxable profits of both resident and non-resident companies, including local branches of foreign enterprises.
+*   Companies and corporate bodies in Sri Lanka.
+
+For standard taxable companies, business profits are computed on an accrual basis, and this 30% rate applies to business income for the Year of Assessment 2025/2026. If a cooperative society does not qualify for an exemption (for instance, if its registration has lapsed, or it operates under outdated ordinances that do not confer tax-exempt status), its taxable business and investment income are taxed at this flat rate of 30%.",
+Can companies obtain concessionary tax rates?,agent3_corporate_income_tax,agent3_corporate_income_tax,1.0,0.6666666666666666,1.0,1.0,2,1,0,0.8,0.554127037525177,1.0,['concessionary'],1.0,6.489175700116903,"Yes, companies can obtain concessionary tax rates in Sri Lanka for specific types of income.
+
+**Standard Corporate Income Tax Rate:**
+The standard corporate income tax rate is 30% for all standard companies and taxable (non-exempt) cooperative societies for the Years of Assessment 2025/2026 and 2026/2027.
+
+**Concessionary Tax Rate (15%):**
+A concessionary corporate tax rate of 15% is applied to specific sectors and types of income:
+*   **Service Exports:** This rate applies to income derived from service exports. IT and BPO providers, for example, can qualify for this rate.
+*   **Foreign-Sourced Profits:** Profits earned from foreign sources are also eligible for the 15% concessionary rate.
+
+**Conditions for Concessionary Rate:**
+To secure the 15% concessionary rate on service exports and foreign-sourced income, companies must meet specific conditions:
+*   **Foreign Currency Receipt:** All export-related revenue or foreign-sourced income must be received in foreign currency.
+*   **Local Banking System Remittance:** The foreign currency revenue must be remitted directly through a local bank.
+*   **Clear Banking Trails:** Companies, especially IT and BPO providers, must maintain clear banking trails to prove that these conditions have been met.
+
+**Other Specific Rates:**
+It's important to note that not all income qualifies for the concessionary rate. For example:
+*   Profits derived from domestic betting and gaming, and the manufacture, sale, or import of liquor or tobacco products, are taxed at a higher flat rate of 45%.
+*   Cooperative societies registered under the Cooperative Societies Law, No. 5 of 1972, or equivalent provincial council statutes, can apply a Core Exempt Rate (0%) on their mutual trading and related incomes. However, their non-mutual or investment income is subject to standard corporate rates.",
+Is withholding tax on dividends final?,agent4_withholding_tax,agent4_withholding_tax,0.0,0.0,0.0,0.0,0,3,1,0.0,0.6869779229164124,0.0,[],0.5,2.909917299868539,"Answer:
+Withholding Tax (WHT) on dividends can be both creditable and a final tax, depending on the specific circumstances.
+
+Details & Conditions:
+*   **Creditable:** This means that the WHT deducted from the dividend payment can be used as a credit against your total income tax liability for the year. If the WHT deducted is more than your final tax liability, you might be eligible for a refund.
+*   **Final Tax:** This means that the WHT deducted at the source is the final tax obligation on that dividend income, and you do not need to declare it again or pay any further tax on it in your annual income tax assessment.
+
+The context indicates a 15% rate for dividends and lists both ""Creditable*"" and ""Final Tax"" as possibilities. To determine whether WHT on dividends is creditable or final in a particular situation, you would need to refer to the specific provisions of the Inland Revenue Act or related circulars, as indicated by the asterisk next to ""Creditable*"".",
+What is the withholding tax rate on interest paid to residents?,agent4_withholding_tax,agent4_withholding_tax,1.0,1.0,1.0,1.0,3,0,0,1.0,0.7406975030899048,1.0,"['10%', 'interest']",1.0,11.157833900069818,"The Advance Income Tax (AIT) rate on interest and deposit discounts paid to resident persons is **10%**.
+
+Here's a breakdown of the details:
+
+*   **Tax Rate:** The AIT rate on interest and deposit discounts paid to both resident and non-resident persons is 10%. This rate was increased from a previous 5%.
+*   **Creditable Tax:** The statutory position is that interest AIT is a creditable tax. This means that standard taxpayers are required to declare their interest income in their annual tax return. They can then claim the AIT that has been withheld as a credit against their overall progressive tax liability.
+*   **Practical Finality for Certain Resident Individuals:** For resident individuals whose total annual assessable income from all sources does not exceed LKR 1.8 million, the AIT on interest achieves practical finality. This implies that if their income is below this threshold, they might not need to declare it further or pay additional tax, as the withheld AIT covers their liability.
+
+In summary, the withholding tax on interest for residents is 10%, generally treated as a creditable tax, but can be considered final for resident individuals with total annual assessable income not exceeding LKR 1.8 million.",
+What's the weather like in Colombo today?,general_fallback,general_fallback,0.0,0.0,0.0,0.0,0,0,2,0.0,1.0,1.0,"['specialized', 'tax-related']",0.0,1.2537847999483347,"I am sorry, I am a specialized Sri Lankan Tax Assistant and I can only assist you with tax-related queries.",
+Who won the last T20 Cricket World Cup?,general_fallback,general_fallback,0.0,0.0,0.0,0.0,0,0,2,0.0,1.0,1.0,"['specialized', 'tax-related']",0.5,0.9678780999965966,"I am sorry, I am a specialized Sri Lankan Tax Assistant and I can only assist you with tax-related queries.",

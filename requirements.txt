@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-openai
+google-generativeai
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+streamlit
+fastapi
+uvicorn
